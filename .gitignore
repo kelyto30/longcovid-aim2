@@ -1,0 +1,20 @@
+# Data files (too large for git)
+data/*.rds
+data/*.rds.gz
+data/*.txt.gz
+data/*.csv.gz
+data/*.tsv.gz
+data/GSE*/
+
+# Result figures (tracked separately)
+results/figures/*.png
+results/figures/*.pdf
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
